@@ -1,0 +1,38 @@
+/* General Styles */
+html{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 70px; /* To account for fixed navbar */
+    height: 100%;
+    margin: 0;
+}
+
+h1, h2, h4 {
+    font-weight: 600;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Navbar */
+.navbar-nav .nav-link:hover {
+    color: #00aaff !important;
+}
