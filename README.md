@@ -1,2 +1,2 @@
-# surakshyabhandari.github.io
+# bhandarisurakshya.github.io
 Personal Webpage
