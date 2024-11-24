@@ -1,2 +1,2 @@
-[Surakshya Bhandari](https://bhandarisurakshya.github.io)
-Personal Webpage
+Click [here](https://bhandarisurakshya.github.io)! :)
+
