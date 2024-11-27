@@ -8,11 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Surakshya Bhandari</a>
+            <a class="navbar-brand" href="index.html"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,24 +23,36 @@
                     <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
                     <li class="nav-item"><a class="nav-link active" href="resume.html">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Resume Section -->
-    <section class="container py-5 mt-5">
-        <h2 class="text-center mb-4">Resume</h2>
-        <p class="text-center">Download my resume:</p>
-        <div class="text-center">
-            <a href="resume.pdf" class="btn btn-primary" download>Download Resume</a>
-        </div>
-    </section>
+    <main class="flex-grow-1">
+        <section class="container py-5 mt-5">
+            <h2 class="text-center mb-4">Resume</h2>
+            <p class="text-center">View my resume below:</p>
+            <div class="text-center">
+                <!-- Embed the PDF directly on the page -->
+                <iframe 
+                    src="resume.pdf" 
+                    width="100%" 
+                    height="600px" 
+                    style="border: 1px solid #ddd;">
+                </iframe>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
-     <footer class="text-center bg-dark text-white py-3 mt-auto">
+    <footer>
         <p>&copy; 2024 Surakshya Bhandari. All Rights Reserved.</p>
+        <p>
+            Follow me on:
+            <a href="https://github.com/SurakshyaBhandari" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/surakshya-bhandari" target="_blank">LinkedIn</a>
+        </p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
